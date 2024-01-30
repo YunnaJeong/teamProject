@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+
+     /* -------main css---------*/
+
+
+        
+  
+
+  
+
+		main{
+        width:1200px;
+        height:50%;
+        margin: auto;
+      
+        }
+
+        .sideBar{
+         width: 260px;
+         height:1200px;
+         background: #DDDDDD;
+         left: 1000px;
+         border-radius: 10px;
+         }
+
+         .sideBar > ul{
+            padding: 60px 0 0 30px;
+
+         }
+
+         .sideBar  li{
+            font-size: 25px;
+            padding: 15px;
+         }
+
+
+        /* 배너-레이아웃용 */
+        .banner {
+            width: 1fr;
+            height: 320px;
+            background: #DDDDDD;
+        }
+
+        .article {
+            width: 1200px;
+            height: 1000px;
+        }
+
+		  /*메뉴 호버 효과 일괄적용*/
+        .hover :hover{
+            font-weight: bolder;
+            font-size: larger; 
+
+        }
+
+
+        /* -------main css끝--------*/
